@@ -1,4 +1,5 @@
-# [Name/Description of the Subject Under Test](http://link.to.the/subject_under_test)
+<pre>
+# [Name/Description of the System Under Test](http://link.to.the/system_under_test/in/tracker/)
 
 ## Session Metadata
 
@@ -12,10 +13,11 @@
 
 -   First thing I did.
 -   Then I did some other thing.
-    -    **[(YYYY.MM.DD HH:MM)It did something that was obviously wrong.][12345]**
+    -   **[(YYYY.MM.DD HH:MM)It did something that was obviously wrong.][12345]**
 
 ## Miscellaneous
 
--    Blam.
+-   Blam.
 
 [12345]: http://link.to.the/bug/in/tracker/12345
+</pre>
