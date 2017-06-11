@@ -7,9 +7,9 @@ A modern approach to [SBTM](https://en.wikipedia.org/wiki/Session-based_testing)
 The [Markdown](https://daringfireball.net/projects/markdown/) file is broken up into 4 sections:
 
 -   The name and/or description of the system under test.
--   Metadata about the session.
--   Session notes. This is the heart of the document and describes your testing in as much detail as you require.
--   Other notes that don't directly apply to the session. These could contain your feelings about the system or some area that you think requires follow-up. This is designed as a catch-all.
+-   Metadata about the testing session.
+-   Your session notes. This is the heart of the document and describes your testing in as much detail as you require.
+-   Other notes that don't explicitly relate to the your testing session, but are still important. These could contain your feelings about the system or some area that you think requires follow-up. This is designed as a catch-all.
 
 ## Conventions
 
