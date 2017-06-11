@@ -20,6 +20,11 @@
         -   Doing this is also very similar. Let's see what happens.
             -   *(YYYY.MM.DD HH:MM) Huh. I don't know what to think of this behavior. Investigate later, maybe as part of another session.*
 -   Backtrack and try something different.
+    -   There's a few options. Try one at a time.
+        -   Option 1 is good.
+        -   **(YYYY.MM.DD HH:MM) Option 2 crashes the application after displaying an error message.**
+            -   ![Screenshot: The error message.](./option_2_error_message.jpg)
+        -   Option 3 is good.
 
 ## Other Notes
 
