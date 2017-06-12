@@ -2,7 +2,11 @@
 
 A modern approach to [SBTM](https://en.wikipedia.org/wiki/Session-based_testing) documentation.
 
-## The Format
+## Background
+
+TODO!
+
+## File Format
 
 The [Markdown](https://daringfireball.net/projects/markdown/) file is broken up into 4 sections:
 
@@ -27,6 +31,8 @@ The [Markdown](https://daringfireball.net/projects/markdown/) file is broken up 
 -   Add screenshots with an alt-text string that starts with "Screenshot: "
 -   Link issues that are filed in a big tracker with a reference-style link.
 
-- - -
+## Miscellaneous
+
+[Trello Project Board](https://trello.com/b/F8GEZdSW/union)
 
 Another [Union](https://en.wikipedia.org/wiki/Lake_Union).
