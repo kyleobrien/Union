@@ -6,6 +6,8 @@ A modern approach to [SBTM](https://en.wikipedia.org/wiki/Session-based_testing)
 
 TODO!
 
+The key feature of this format is that it prefers convention over new syntax. In this way, readily available markdown processing tools already work. Adhereing to convention *might* enable additional functionality at a later time.
+
 ## File Format
 
 The [Markdown](https://daringfireball.net/projects/markdown/) file is broken up into 4 sections:
