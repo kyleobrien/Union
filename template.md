@@ -5,6 +5,7 @@
 
 -   Charter:
 -   Testers:
+-   Story:
 -   Tags:
 -   Start:
 -   Stop:
