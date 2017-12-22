@@ -35,6 +35,8 @@ The [Markdown](https://daringfireball.net/projects/markdown/) file is broken up 
 
 ## Miscellaneous
 
-[Trello Project Board](https://trello.com/b/F8GEZdSW/union)
+The charter template is taken from Elisabeth Hendrickson's excellent book [Explore It!](http://a.co/aAVo6CV).
+
+There's a [Trello Project Board](https://trello.com/b/F8GEZdSW/union) for this thing.
 
 Another [Union](https://en.wikipedia.org/wiki/Lake_Union).
