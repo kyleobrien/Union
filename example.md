@@ -5,7 +5,7 @@
 
 -   Charter:
 -   Testers:
--   Story:
+-   Story / Ticket #:
 -   Tags:
 -   Start:
 -   Stop:
