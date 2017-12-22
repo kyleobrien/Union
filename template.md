@@ -3,9 +3,9 @@
 
 ## Session Metadata
 
--   Charter:
+-   Charter: Explore 'target' with 'resources' to discover 'information'.
 -   Testers:
--   Story:
+-   Story / Ticket #:
 -   Tags:
 -   Start:
 -   Stop:
