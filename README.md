@@ -1,6 +1,6 @@
 # Union
 
-A modern approach to [SBTM](https://en.wikipedia.org/wiki/Session-based_testing) documentation.
+Exploratory testing with [SBTM](https://en.wikipedia.org/wiki/Session-based_testing) and Markdown.
 
 ## Background
 
