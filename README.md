@@ -1,6 +1,6 @@
 # Union
 
-Exploratory testing with [SBTM](https://en.wikipedia.org/wiki/Session-based_testing) and Markdown.
+Exploratory testing with [SBTM](https://en.wikipedia.org/wiki/Session-based_testing) and [Markdown](https://daringfireball.net/projects/markdown/).
 
 ## Background
 
