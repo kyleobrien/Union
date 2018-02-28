@@ -10,28 +10,30 @@ The key feature of this format is that it prefers convention over new syntax. In
 
 ## File Format
 
-The [Markdown](https://daringfireball.net/projects/markdown/) file is broken up into 4 sections:
+The Markdown file is broken up into 5 sections:
 
--   The name and/or description of the system under test.
--   Metadata about the testing session.
--   Your session notes. This is the heart of the document and describes your testing in as much detail as you require.
--   Other notes that don't explicitly relate to the your testing session, but are still important. These could contain your feelings about the system or some area that you think requires follow-up. This is designed as a catch-all.
+| Section          | Description                                                                                                         |
+|:---------------- |:------------------------------------------------------------------------------------------------------------------- |
+| Name/Description | A high-level, one sentence description of the thing you're testing in the session.                                  |
+| Session Metadata | Parameters of the session.                                                                                          |
+| Session Notes    | The heart of the document; describes your testing in as much detail as you require.                                 |
+| Other Notes      | Extra stuff that's important to capture. Feelings about the system you are testing, ideas for future sessions, etc. |
+| Debrief          | Notes from discussions with test managers or fellow testers about the content of the session.                       |
 
 ## Conventions
 
 ### Metadata
 
 -   The "Testers" and "Tags" fields are comma-separated strings.
--   The prefered format for the "Start" and "Stop" fields is YYYY.MM.DD HH:MM, but any format that's parsable by a programming language will work.
+-   The prefered format for the "Start" and "Stop" fields is YYYY.MM.DD HH:MM, but any format that's parsable by a programming language is appropriate.
 
 ### Session Notes
 
 -   Notes are taken in an outline format.
--   Indicate bugs and issues with strong emphasis, using double asteriks.
--   Indicate interesting, peculiar and follow-up issues with emphasis, using a single asterik.
--   Immediately following your single or double asteriks, include a parenthesis wrapped timestamp. This helps put the item in context within the exploratory session.
--   Add screenshots with an alt-text string that starts with "Screenshot: "
--   Link issues that are filed in a big tracker with a reference-style link.
+-   Indicate bugs with strong emphasis, using double asteriks or double underscores.
+-   Indicate issues (problems or observations that requires more investigation) with emphasis, using a single asterik or single underscore.
+-   Include a parenthesis wrapped timestamp when noting bugs and issues. This helps put the item in context within the testing session. See the [template](.//template.md) for examples.
+-   Link issues that are filed in a big tracker with a reference-style link. This keeos the notes clean and readable.
 
 ## Miscellaneous
 
