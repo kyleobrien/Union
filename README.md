@@ -1,12 +1,10 @@
 # Union
 
-Exploratory testing with [SBTM](https://en.wikipedia.org/wiki/Session-based_testing) and [Markdown](https://daringfireball.net/projects/markdown/).
+Exploratory testing with [SBTM](http://www.satisfice.com/sbtm/) and [Markdown](https://daringfireball.net/projects/markdown/).
 
-## Background
+## Overview
 
-TODO!
-
-The key feature of this format is that it prefers convention over new syntax. In this way, readily available markdown processing tools already work. Adhereing to convention *might* enable additional functionality at a later time.
+Union is a simple, formatted outline that prefers convention over new syntax. In this way, your testing documentation can take advantage of popular text editors and existing Markdown processing tools to display your notes in the way that is right for you.
 
 ## File Format
 
@@ -33,7 +31,7 @@ The Markdown file is broken up into 5 sections:
 -   Indicate bugs with strong emphasis, using double asteriks or double underscores.
 -   Indicate issues (problems or observations that requires more investigation) with emphasis, using a single asterik or single underscore.
 -   Include a parenthesis wrapped timestamp when noting bugs and issues. This helps put the item in context within the testing session. See the [template](.//template.md) for examples.
--   Link issues that are filed in a big tracker with a reference-style link. This keeos the notes clean and readable.
+-   Link issues that are filed in a big tracker with a reference-style link. This keeps the notes clean and readable.
 
 ## Miscellaneous
 
