@@ -1,16 +1,18 @@
 # Union
 
-Exploratory testing with [SBTM](http://www.satisfice.com/sbtm/) and [Markdown](https://daringfireball.net/projects/markdown/). More info about the format is available on the [GitHub repository](https://github.com/kyleobrien/Union).
+Exploratory testing with [SBTM](http://www.satisfice.com/sbtm/) and [Markdown](https://daringfireball.net/projects/markdown/) using a simple, formatted outline that prefers convention over new syntax. For more information, check out the [GitHub repository](https://github.com/kyleobrien/Union).
 
 ## Features
 
-A tiny extension that provides snippets to make your exploratory testing more pleasant. You get:
+Three snippets to make your exploratory testing more pleasant. You get:
 
--   explore: a skeleton SBTM document.
--   bug: bold text that signifies you found something bad.
--   issue: italicized text that means you need to follow up on something later.
+-   __explore__: a skeleton SBTM document.
+-   __bug__: bold text that signifies you found something bad.
+-   __issue__: italicized text that means you need to follow up on something later.
 
-![All three snippets in action.](/images/snippet_demo.gif)
+Here's a quick demo:
+
+![All three snippets in action.](https://github.com/kyleobrien/Union/raw/master/union/images/snippet_demo.gif)
 
 ## Requirements
 
