@@ -1,0 +1,45 @@
+{
+    "Exploratory SBTM Template": {
+        "prefix": "explore",
+        "body": [
+            "# [Name or Brief Description of the System Under Test](http://link.to.the/system_under_test/in/tracker/if/it/exists/)",
+            "",
+            "## Session Metadata",
+            "",
+            "-   Charter: Explore 'target' with 'resources' to discover 'information'.",
+            "-   Testers:",
+            "-   Product Backlog Item #:",
+            "-   Tags:",
+            "-   Start:",
+            "-   Stop:",
+            "",
+            "## Session Notes",
+            "",
+            "-   ",
+            "",
+            "## Other Notes",
+            "",
+            "-   ",
+            "",
+            "## Debrief",
+            "",
+            "-   ",
+            ""
+        ],
+        "description": "A template to create Session-Based Test Management (SBTM) documentation."
+    },
+    "Bug": {
+        "prefix": "bug",
+        "body": [
+            "__(${CURRENT_YEAR:YYYY}.${CURRENT_MONTH:MM}.${CURRENT_DATE:DD} ${CURRENT_HOUR:hh}:${CURRENT_MINUTE:mm}) ${1:Bug goes here!}__"
+        ],
+        "description": "Write up a new bug."
+    },
+    "Issue": {
+        "prefix": "issue",
+        "body": [
+            "_(${CURRENT_YEAR:YYYY}.${CURRENT_MONTH:MM}.${CURRENT_DATE:DD} ${CURRENT_HOUR:hh}:${CURRENT_MINUTE:mm}) ${1:Issue goes here!}_"
+        ],
+        "description": "Write up a new issue that requires additional investigation."
+    }
+}

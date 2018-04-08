@@ -1,0 +1,36 @@
+{
+    "name": "union",
+    "displayName": "Union",
+    "description": "Snippets for documenting exploratory testing with SBTM and Markdown.",
+    "version": "0.1.0",
+    "publisher": "kyleobrien",
+    "author" : { "name" : "Kyle O'Brien",
+                 "email" : "me@kyleobrien.net",
+                 "url" : "http://kyleobrien.net"
+               },
+    "contributes": {
+        "snippets": [
+            {
+                "language": "markdown",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "keywords": ["testing", "exploratory", "SBTM", "markdown"],
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "bugs": {
+        "url": "https://github.com/kyleobrien/Union/issues",
+        "email": "me@kyleobrien.net"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kyleobrien/Union.git"
+    },
+    "homepage": "https://github.com/kyleobrien/Union/blob/master/README.md"
+}
