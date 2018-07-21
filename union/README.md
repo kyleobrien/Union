@@ -30,6 +30,6 @@ Since Markdown text suggestions are turned off by default, you might need to edi
 
 ## Release Notes
 
-### 1.0.0
+### 0.1.0
 
-Initial release of Union!
+Alpha release!
