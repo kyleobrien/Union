@@ -14,7 +14,13 @@
                 "language": "markdown",
                 "path": "./snippets/snippets.json"
             }
-        ]
+        ],
+        "configurationDefaults": {
+            "[markdown]": {
+                "editor.quickSuggestions": true,
+                "editor.wordBasedSuggestions": false
+            }
+        }
     },
     "categories": [
         "Snippets"
