@@ -29,9 +29,9 @@ The Markdown file is broken up into 5 sections:
 
 -   Notes are taken in an outline format.
 -   Indicate bugs with strong emphasis, using double underscores or double asteriks.
--   Indicate issues (problems or observations that requires more investigation) with emphasis, using single underscores or single asteriks.
+-   Indicate issues (problems or observations that require investigation) with emphasis, using single underscores or single asteriks.
 -   Include a parenthesis wrapped timestamp when noting bugs and issues. This helps put the item in context within the testing session. See the [template](.//template.md) for examples.
--   Link issues that are filed in a big tracker with a reference-style link. This keeps the notes clean and readable.
+-   Link issues that are filed in a big tracker with a reference-style link. This keeps your notes clean and readable.
 
 ## Miscellaneous
 
