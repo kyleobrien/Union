@@ -2,7 +2,7 @@
     "name": "union",
     "displayName": "Union",
     "description": "Snippets for documenting exploratory testing with SBTM and Markdown.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "kyleobrien",
     "author" : { "name" : "Kyle O'Brien",
                  "email" : "me@kyleobrien.net",
