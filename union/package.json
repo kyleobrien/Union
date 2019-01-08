@@ -20,7 +20,10 @@
                 "editor.quickSuggestions": true,
                 "editor.wordBasedSuggestions": false
             }
-        }
+        },
+        "markdown.previewStyles": [
+            "./preview_style.css"
+        ]
     },
     "categories": [
         "Snippets"
