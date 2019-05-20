@@ -1,47 +1,55 @@
+/* Color scheme courtesy of Flat UI Colors: https://flatuicolors.com/palette/defo */
+
+:root {
+    --union-background-color: #ecf0f1;
+    --union-bug-color: #c0392b;
+    --union-code-color: #2980b9;
+    --union-issue-color: #8e44ad;
+    --union-table-header: #95a5a6;
+    --union-table-row: #bdc3c7;
+    --union-text-color: #2e3440;
+}
+
 body {
-    background-color: white;
-    color: rgb(42, 42, 42);
+    background-color: var(--union-background-color);
+    color: var(--union-text-color);
     line-height: 175%;
 }
 
-em {
-    color:fuchsia;
-    font-weight: 700;
-}
-
-h2 {
-    font-weight: 700;
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
 }
 
 strong {
-    color: red;
+    color: var(--union-bug-color);
+    font-weight: 900;
+}
+
+em {
+    color: var(--union-issue-color);
+    font-weight: 700;
+}
+
+code {
+    color: var(--union-code-color);
     font-weight: 700;
 }
 
 table {
-    border: 1px solid black;
+    border: 1px solid var(--union-text-color);
+    border-collapse: separate;
+    border-spacing: 0px;
 }
 
 th {
-    background-color: #d1d1d1;
+    background-color: var(--union-table-header);
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: var(--union-table-row);
 }
 
-strong > a:link, strong > a:hover, strong > a:visited {
-    color: red;
-    text-decoration: underline;
-}
-
-em > a:link, em > a:hover, em > a:visited {
-    color:fuchsia;
-    text-decoration: underline;
-}
-
-h1 > a:link, h1 > a:hover, h1 > a:visited {
-    color: black;
-    font-size: smaller;
+a:link, a:hover, a:active, a:visited {
+    color: inherit;
     text-decoration: underline;
 }
