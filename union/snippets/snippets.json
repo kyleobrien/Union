@@ -8,7 +8,7 @@
             "",
             "-   Charter: Explore 'target' with 'resources' to discover 'information'.",
             "-   Testers:",
-            "-   Story #:",
+            "-   Work Item #:",
             "-   Tags:",
             "-   Start:",
             "-   Stop:",
@@ -34,7 +34,7 @@
         "body": [
             "__(${CURRENT_YEAR:YYYY}-${CURRENT_MONTH:MM}-${CURRENT_DATE:DD} ${CURRENT_HOUR:hh}:${CURRENT_MINUTE:mm}) ${1:Bug goes here!}__$0"
         ],
-        "description": "Write up a new bug.",
+        "description": "Document a new bug.",
         "scope": "markdown"
     },
     "Issue": {
@@ -42,7 +42,7 @@
         "body": [
             "_(${CURRENT_YEAR:YYYY}-${CURRENT_MONTH:MM}-${CURRENT_DATE:DD} ${CURRENT_HOUR:hh}:${CURRENT_MINUTE:mm}) ${1:Issue goes here!}_$0"
         ],
-        "description": "Write up a new issue that requires additional investigation.",
+        "description": "Document a new issue that requires investigation.",
         "scope": "markdown"
     },
     "Now": {
