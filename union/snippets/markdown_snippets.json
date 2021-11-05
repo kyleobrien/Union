@@ -40,13 +40,5 @@
         ],
         "description": "Document a new issue that requires investigation.",
         "scope": "markdown"
-    },
-    "Now": {
-        "prefix": "now",
-        "body": [
-            "${CURRENT_YEAR:YYYY}-${CURRENT_MONTH:MM}-${CURRENT_DATE:DD} ${CURRENT_HOUR:hh}:${CURRENT_MINUTE:mm}"
-        ],
-        "description": "The current date and time.",
-        "scope": "markdown"
     }
 }

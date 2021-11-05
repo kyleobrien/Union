@@ -12,11 +12,19 @@
         "snippets": [
             {
                 "language": "markdown",
-                "path": "./snippets/snippets.json"
+                "path": "./snippets/markdown_snippets.json"
+            },
+            {
+                "language": "yaml",
+                "path": "./snippets/yaml_snippets.json"
             }
         ],
         "configurationDefaults": {
             "[markdown]": {
+                "editor.quickSuggestions": true,
+                "editor.wordBasedSuggestions": false
+            },
+            "[yaml]": {
                 "editor.quickSuggestions": true,
                 "editor.wordBasedSuggestions": false
             }
