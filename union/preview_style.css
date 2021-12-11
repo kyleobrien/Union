@@ -10,6 +10,11 @@
     --union-text-color: #2e3440;
 }
 
+a, a:link, a:hover, a:active, a:visited {
+    color: inherit;
+    text-decoration: underline;
+}
+
 body {
     background-color: var(--union-background-color);
     color: var(--union-text-color);
@@ -35,10 +40,9 @@ code {
     font-weight: 700;
 }
 
-table {
-    border: 1px solid var(--union-text-color);
-    border-collapse: separate;
-    border-spacing: 0px;
+table, th, td {
+    border: 1px solid var(--union-text-color) !important;
+    border-collapse: collapse;
 }
 
 th {
@@ -47,9 +51,4 @@ th {
 
 tr:nth-child(even) {
     background-color: var(--union-table-row);
-}
-
-a, a:link, a:hover, a:active, a:visited {
-    color: inherit;
-    text-decoration: underline;
 }
