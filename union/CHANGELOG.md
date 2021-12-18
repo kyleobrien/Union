@@ -1,7 +1,20 @@
 # Change Log
-All notable changes to the "union" extension will be documented in this file.
+All notable changes to the Union extension will be documented in this file. Thanks, [Keep a Changelog](http://keepachangelog.com/).
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 0.8.0 (alpha) - 2021-12-18
+### Added
+- The metadata section is now captured through YAML at the top of the document.
+- "now" snippet for the current date and time.
+- "target", "resources", and "information" are now tabstops.
+
+### Changed
+- "Story #" is now "Work Item".
+
+### Removed
+- "Other Notes" section got cut. "Session Notes" is now just "Notes".
+
+### Fixed
+- Code blocks now don't look as terrible.
 
 ## 0.1.2 - 2019-05-14
 ### Changed
@@ -15,4 +28,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## 0.1.0 - 2018-07-21
 ### Added
-- Alpha release!
+- Initial release!
