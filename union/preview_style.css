@@ -4,15 +4,11 @@
     --union-background-color: #ecf0f1;
     --union-bug-color: #c0392b;
     --union-code-color: #2980b9;
+    --union-code-block-color: #bdc3c7;
     --union-issue-color: #8e44ad;
     --union-table-header: #95a5a6;
     --union-table-row: #bdc3c7;
     --union-text-color: #2e3440;
-}
-
-a, a:link, a:hover, a:active, a:visited {
-    color: inherit;
-    text-decoration: underline;
 }
 
 body {
@@ -21,34 +17,59 @@ body {
     line-height: 175%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.vscode-body a,
+.vscode-body a:link,
+.vscode-body a:hover,
+.vscode-body a:active,
+.vscode-body a:visited {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.vscode-body h1,
+.vscode-body h2,
+.vscode-body h3,
+.vscode-body h4,
+.vscode-body h5,
+.vscode-body h6 {
     font-weight: 500;
 }
 
-strong {
+.vscode-body strong {
     color: var(--union-bug-color);
     font-weight: 900;
 }
 
-em {
+.vscode-body em {
     color: var(--union-issue-color);
     font-weight: 700;
 }
 
-code {
+.vscode-body code {
     color: var(--union-code-color);
     font-weight: 700;
 }
 
-table, th, td {
+.vscode-body table,
+.vscode-body th,
+.vscode-body td {
     border: 1px solid var(--union-text-color) !important;
     border-collapse: collapse;
 }
 
-th {
+.vscode-body th {
     background-color: var(--union-table-header);
 }
 
-tr:nth-child(even) {
+.vscode-body tr:nth-child(even) {
     background-color: var(--union-table-row);
+}
+
+.vscode-body pre {
+    border-radius: 7px;
+}
+
+.vscode-body pre,
+.vscode-body code > div {
+    background-color: var(--union-text-color);
 }
