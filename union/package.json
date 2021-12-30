@@ -2,7 +2,7 @@
     "name": "union",
     "displayName": "Union",
     "description": "Snippets for documenting exploratory testing with SBTM and Markdown.",
-    "version": "0.1.2",
+    "version": "0.8.0",
     "publisher": "kyleobrien",
     "author" : { "name" : "Kyle O'Brien",
                  "email" : "me@kyleobrien.net",
@@ -54,5 +54,6 @@
         "type": "git",
         "url": "https://github.com/kyleobrien/Union.git"
     },
-    "homepage": "https://github.com/kyleobrien/Union/blob/master/README.md"
+    "homepage": "https://github.com/kyleobrien/Union/blob/master/README.md",
+    "preview": true
 }
